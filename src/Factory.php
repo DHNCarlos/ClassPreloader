@@ -58,7 +58,7 @@ class Factory
      */
     protected function getParser()
     {
-        if (class_exists(ParserFactory::class)) {
+        if (class_exists('PhpParser\ParserFactory')) {
             return (new ParserFactory())->create(ParserFactory::PREFER_PHP7);
         }
 

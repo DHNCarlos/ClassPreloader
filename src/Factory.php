@@ -28,6 +28,7 @@ use PhpParser\PrettyPrinter\Standard as PrettyPrinter;
  */
 class Factory
 {
+    const CLASSNAME = __CLASS__;
     /**
      * Create a new class preloader instance.
      *
